@@ -1,0 +1,33 @@
+.register_button {
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: var(--Violet);
+    cursor: pointer;
+    box-shadow: 10px 10px 20px -10px rgb(56, 56, 56, 0.75);
+    transition: 350ms;
+}
+
+.register_button:hover {
+    background-color: var(--Soft_Magenta);
+    color: white;
+    scale: 1.1;
+}
+
+/* mobile(responsive) */
+@media screen and (max-width:767px) {
+    .register_button {
+        font-size: 1rem;
+        padding: 0.7rem 90px;
+    }
+}
+
+/* tablet (responsive) */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .register_button {
+        font-size: 2rem;
+        padding: 1rem 100px;
+    }
+}

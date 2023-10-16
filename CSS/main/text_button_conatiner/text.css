@@ -1,0 +1,32 @@
+.text_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.text_p {
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+/* mobile (responsive) */
+@media screen and (max-width:767px) {
+    .text_p {
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+}
+
+/* tablet (responsive) */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .text_p {
+        font-size: 2rem;
+        justify-content: center;
+    }
+
+    .text_title {
+        font-size: 3rem;
+
+    }
+}

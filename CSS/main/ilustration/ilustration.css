@@ -1,0 +1,10 @@
+.ilustration_img {
+    max-width: 100%;
+}
+
+/* tablet (responsive) */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .ilustration_img {
+        max-width: 80%;
+    }
+}
